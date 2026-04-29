@@ -1,3 +1,5 @@
 ai_env/
 dist/
 __pycache__/
+build/
+*.spec
