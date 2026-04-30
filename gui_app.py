@@ -1,8 +1,16 @@
 import flet as ft
 import traceback
+import os
+import ssl
+import certifi
+
+# --- SSL Certificate fix for PyInstaller exe ---
+os.environ['SSL_CERT_FILE'] = certifi.where()
+os.environ['REQUESTS_CA_BUNDLE'] = certifi.where()
+ssl._create_default_https_context = ssl.create_default_context
+# -----------------------------------------------
 
 # --- PYINSTALLER WINDOWED MODE FIX ---
-# Gives TensorFlow a dummy console to write to since the real one is hidden
 import sys
 import io
 if sys.stdout is None:

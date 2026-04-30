@@ -40,4 +40,4 @@ def calculate_fyp_metrics(cover_path, stego_path):
 
 # --- Run the Evaluation ---
 # Replace 'cover.jpg' with whatever your original image is named
-calculate_fyp_metrics("cover.jpg", "final_stego_output.png")
+calculate_fyp_metrics("C:\\Users\\Sittha\\Desktop\\img19.jpg", "final_stego_output.png")
