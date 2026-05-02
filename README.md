@@ -6,15 +6,15 @@ A steganography system that combines **AES-256 encryption**, **AI-based visual e
 ---
 
 ## ⚙️ How It Works
-1. **Layer 1 — AES-256 Encryption:** Your secret message is encrypted with a password
-2. **Layer 2 — AI Steganography:** The encrypted data is invisibly hidden inside a cover image using a trained neural network + LSB embedding
-3. **Layer 3 — Blockchain:** The stego image is hashed and registered on the Ethereum Sepolia testnet as tamper-proof proof of ownership
+1. **Layer 1 - AES-256 Encryption:** Your secret message is encrypted with a password
+2. **Layer 2 - AI Steganography:** The encrypted data is invisibly hidden inside a cover image using a trained neural network + LSB embedding
+3. **Layer 3 - Blockchain:** The stego image is hashed and registered on the Ethereum Sepolia testnet as tamper-proof proof of ownership
 
 ---
 
-## 💻 Installation — Choose One Option
+## 💻 Installation - Choose One Option
 
-### ✅ Option 1: Direct EXE (Recommended — No Python needed)
+### ✅ Option 1: Direct EXE (Recommended - No Python needed)
 > Works on most Windows 10/11 machines
 
 1. Go to [**Releases**](../../releases)
@@ -29,12 +29,12 @@ A steganography system that combines **AES-256 encryption**, **AI-based visual e
 
 ---
 
-### 🐍 Option 2: Python Script (Fallback — works on ALL machines)
+### 🐍 Option 2: Python Script (Fallback - works on ALL machines)
 > Use this if the EXE doesn't work on your machine
 
 **Step 1:** Install **Python 3.10 only** from https://www.python.org/downloads/release/python-31011/
 
-> ⚠️ **You must install Python 3.10 specifically — do NOT install Python 3.11, 3.12, 3.13 or 3.14.**
+> ⚠️ **You must install Python 3.10 specifically - do NOT install Python 3.11, 3.12, 3.13 or 3.14.**
 > TensorFlow (the AI library this app uses) does not support newer Python versions and the app will fail to launch.
 
 > ⚠️ Make sure to tick **"Add Python to PATH"** during install, then restart your PC!
@@ -45,7 +45,7 @@ A steganography system that combines **AES-256 encryption**, **AI-based visual e
 > ⚠️ **Do NOT run the bat file as Administrator.** Running as Admin will install packages to a different location and the app will fail to open. Just double click it normally.
 > First run takes 5-10 minutes to install packages. Every run after that is instant.
 
-> ⏳ **The app may take up to 5 seconds to open after the install completes — this is normal. Don't panic or close the window!**
+> ⏳ **The app may take up to 5 seconds to open after the install completes - this is normal. Don't panic or close the window!**
 
 ---
 
@@ -57,7 +57,7 @@ A steganography system that combines **AES-256 encryption**, **AI-based visual e
 3. Type your secret message
 4. Enter a password
 5. Click **Execute Encryption & Blockchain Registry**
-6. Once complete, the encrypted stego image `final_stego_output.png` will be saved in the **same folder where you extracted the app** — go there to find it and send it to the recipient
+6. Once complete, the encrypted stego image `final_stego_output.png` will be saved in the **same folder where you extracted the app** - go there to find it and send it to the recipient
 7. Send `final_stego_output.png` to the recipient **as a FILE** (not photo)
 7. Share the password separately (in person, phone call, etc.)
 
@@ -109,10 +109,10 @@ SecureStego_Project/
 ---
 
 ## ⚠️ Known Limitations
-- Stego image must be kept as PNG — JPEG compression destroys hidden data
+- Stego image must be kept as PNG - JPEG compression destroys hidden data
 - File must be sent as a document/file, not as a photo via messaging apps
 - Blockchain registration requires an internet connection
-- EXE may not work on some older machines with Intel integrated graphics — use Option 2 in that case
+- EXE may not work on some older machines with Intel integrated graphics - use Option 2 in that case
 - Requires Windows 10/11 64-bit
 
 ---
