@@ -35,4 +35,4 @@ def calculate_metrics(original_path, stego_path):
 
 # Run the test
 # Make sure these filenames match your actual files!
-calculate_metrics("cover.jpg", "final_stego_output.png")
+calculate_metrics(r"C:\Users\Sittha\Pictures\csmdev1.jpg", "final_stego_output.png")
